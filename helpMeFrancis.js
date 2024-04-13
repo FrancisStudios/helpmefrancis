@@ -49,6 +49,20 @@ const __dictionary = [
             console.log(``);
             console.log(`${__styles.bgYellow}${__styles.fgBlack}$ sudo apt-get install xclip${__styles.reset}`);
         }
+    },
+    {
+        keys: ['temperature', 'color_temperature', 'color_temp', 'temp', 'color', 'redshift'],
+        action: () => {
+            console.log(`You can copy a terminal output to the clipboard`);
+            console.log(`You can set the color temperature of your display`);
+            console.log(`with redshift. My preferred value is 4000K ish.`);
+            console.log(`Use the ${__styles.fgRed}redshift -O 4000${__styles.reset} to set`);
+            console.log(`4000 -- or basically any other number you prefer,`);
+            console.log(`and reset with ${__styles.fgRed}redshift -x${__styles.reset} (clears settings)`);
+            console.log(`Avaliable on the apt store:`);
+            console.log(``);
+            console.log(`${__styles.bgYellow}${__styles.fgBlack}$ sudo apt-get install redshift${__styles.reset}`);
+        }
     }
 ];
 
