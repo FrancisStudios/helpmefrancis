@@ -39,6 +39,17 @@ const __dictionary = [
             console.log(``);
             console.log(`${__styles.bgYellow}${__styles.fgBlack}$ sudo apt-get install acpi${__styles.reset}`);
         }
+    },
+    {
+        keys: ['clip', 'clipboard'],
+        action: () => {
+            console.log(`You can check the battery status and percentage`);
+            console.log(`You can copy a terminal output to the clipboard`);
+            console.log(`using the ${__styles.fgRed}xclip${__styles.reset} command which you`);
+            console.log(`can get from the apt store`);
+            console.log(``);
+            console.log(`${__styles.bgYellow}${__styles.fgBlack}$ sudo apt-get install xclip${__styles.reset}`);
+        }
     }
 ];
 
